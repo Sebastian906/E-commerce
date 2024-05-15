@@ -5,24 +5,24 @@ export const DescriptionBox = () => {
     return (
         <div className='descriptionbox'>
             <div className="descriptionbox-navigator">
-                <div className="descriptionbox-nav-box">Description</div>
-                <div className="descriptionbox-nav-box fade">Reviews (122)</div>
+                <div className="descriptionbox-nav-box">Descripción</div>
+                <div className="descriptionbox-nav-box fade">Reseñas (122)</div>
             </div>
             <div className="descriptionbox-description">
                 <p>
-                    An e-commerce website is an online platform that facilitates the
-                    buying and selling of products and services over the internet. It
-                    serves as a virtual marketplace where business and individuals can
-                    showcase their products, interact with costumers, and conduct
-                    transactions without the need for a physical presence. E-commerce
-                    websites have gained immense popularity due to their convenience,
-                    accessibility, and the global reach they offer.
+                    Un sitio web de comercio electrónico es una plataforma en línea que facilita la
+                    compra y venta de productos y servicios a través de internet. Él
+                    sirve como un mercado virtual donde las empresas y los individuos pueden
+                    exhibir sus productos, interactuar con los clientes y realizar
+                    transacciones sin necesidad de presencia física. Comercio electrónico
+                    Los sitios web han ganado una inmensa popularidad debido a su conveniencia,
+                    accesibilidad y el alcance global que ofrecen.
                 </p>
                 <p>
-                    E-commerce websites typically display products or services along
-                    detailed descriptions, images, prices, and any available variations
-                    (e.g. size, colors). Each product usually has its dedicated page
-                    with relevant information.
+                    Los sitios web de comercio electrónico suelen mostrar productos o servicios junto con
+                    descripciones detalladas, imágenes, precios y cualquier variación disponible
+                    (por ejemplo, tamaño, colores). Cada producto suele tener su página dedicada
+                    con información relevante.
                 </p>
             </div>
         </div>

@@ -8,12 +8,12 @@ const CartItems = () => {
     return (
         <div className='cartitems'>
             <div className="cartitems-format-main">
-                <p>Products</p>
-                <p>Title</p>
-                <p>Price</p>
-                <p>Quantity</p>
+                <p>Productos</p>
+                <p>Titulo</p>
+                <p>Precio</p>
+                <p>Cantidad</p>
                 <p>Total</p>
-                <p>Remove</p>
+                <p>Remover</p>
             </div>
             <hr />
             {all_product.map((e)=>{
@@ -34,7 +34,7 @@ const CartItems = () => {
             })}
             <div className="cartitems-down">
                 <div className="cartitems-total">
-                    <h1>Cart Totals</h1>
+                    <h1>Total del Carrito</h1>
                     <div>
                         <div className="cartitems-total-item">
                             <p>Subtotal</p>
@@ -42,8 +42,8 @@ const CartItems = () => {
                         </div>
                         <hr />
                         <div className="cartitems-total-item">
-                            <p>Shipping Fee</p>
-                            <p>Free</p>
+                            <p>Gastos de Envío</p>
+                            <p>Gratis</p>
                         </div>
                         <hr />
                         <div className="cartitems-total-item">
@@ -51,13 +51,13 @@ const CartItems = () => {
                             <h3>${getTotalCartAmount()}</h3>
                         </div>
                     </div>
-                    <button>PROCEED TO CHECKOUT</button>
+                    <button>PASAR A LA CAJA</button>
                 </div>
                 <div className="cartitems-promocode">
-                    <p>If you have a promo code, Enter it here</p>
+                    <p>Si tiene un código de promoción, Entrelo aquí</p>
                     <div className="cartitems-promobox">
-                        <input type="text" placeholder='promo code'/>
-                        <button>Submit</button>
+                        <input type="text" placeholder='código de promoción'/>
+                        <button>Entregar</button>
                     </div>
                 </div>
             </div>

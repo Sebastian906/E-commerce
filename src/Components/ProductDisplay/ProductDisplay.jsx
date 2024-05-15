@@ -35,11 +35,11 @@ const ProductDisplay = (props) => {
                     <div className="productdisplay-right-price-new">${product.new_price}</div>
                 </div>
                 <div className="productdisplay-right-description">
-                    A lightweight, usually knitted, pullover shirt, close fitting and with 
-                    a round neck and short sleeves, worn as an undershirt or outer garment.
+                    Una camisa tipo jersey, liviana, generalmente de punto, ajustada y con
+                    cuello redondo y manga corta, que se usa como camiseta interior o prenda exterior.
                 </div>
                 <div className="productdisplay-right-size">
-                    <h1>Select Size</h1>
+                    <h1>Seleccione Talla</h1>
                     <div className="productdisplay-right-sizes">
                         <div>S</div>
                         <div>M</div>
@@ -48,9 +48,9 @@ const ProductDisplay = (props) => {
                         <div>XXL</div>
                     </div>
                 </div>
-                <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
-                <p className='productdisplay-right-category'><span>Category :</span>Women, T-Shirt, Crop Top</p>
-                <p className='productdisplay-right-category'><span>Tags :</span>Modern, Latest</p>
+                <button onClick={()=>{addToCart(product.id)}}>AÑADA AL CARRITO</button>
+                <p className='productdisplay-right-category'><span>Categoria :</span>Mujer, Camiseta, Top Corto</p>
+                <p className='productdisplay-right-category'><span>Etiquetas :</span>Moderno, Ultimo</p>
             </div>
         </div>
     )

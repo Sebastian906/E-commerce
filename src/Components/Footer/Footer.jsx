@@ -13,11 +13,11 @@ export const Footer = () => {
                 <p>SHOPPER</p>
             </div>
             <ul className="footer-links">
-                <li>Company</li>
-                <li>Products</li>
-                <li>Offices</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li>Companía</li>
+                <li>Productos</li>
+                <li>Oficina</li>
+                <li>Sobre Nosotros</li>
+                <li>Contacto</li>
             </ul>
             <div className="footer-social-icon">
                 <div className="footer-icons-container">
@@ -32,7 +32,7 @@ export const Footer = () => {
             </div>
             <div className="footer-copyright">
                 <hr />
-                <p>Copyright @ 2024 - All Rights Reserved.</p>
+                <p>Copyright @ 2024 - Derechos Reservados.</p>
             </div>
         </div>
     )
